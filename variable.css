@@ -1,0 +1,17 @@
+:root {
+/*---------------------- Couleurs ----------------*/
+--background-white : #FCF4E7;
+--pink-light : #FDC0D2;
+--blue-light : #9FBFFF;
+--green-light : #83B0B8;
+--yellow : #83B0B8;
+--gray-light  : #E5E5E5;
+--gray-dark  : #393C38;  /*(drop shadow et border)*/
+/*------------------- margin padding -------------------*/
+/*--padding-button: ;
+--margin-button: ;
+--border-radius: ;*/
+/*-------------------- font ---------------------*/
+/*---------------- shadow et box ---------------*/
+--box-shadow-publication: 3px 3px 0px 0px #393C38;
+}
