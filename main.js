@@ -114,68 +114,6 @@ sectionNew.innerHTML += `
             }
         }
 }
-// const dislikeLikeDiv = document.querySelector('.dislike-like');
-// const buttonDislike = document.querySelectorAll('.dis-like');
-// const buttonLike = document.querySelectorAll('.li-ke');
-
-// const initialValues = [
-//     {like: 0, dislike: 0},
-//     {like: 0, dislike: 0},
-//     {like: 0, dislike: 0},
-//     {like: 0, dislike: 0},
-//     {like: 0, dislike: 0},
-//     {like: 0, dislike: 0}
-//   ];
-  
-//   for (let i = 0; i < 6; i++) {
-//     let { like, dislike } = initialValues[i];
-  
-//     sectionNew.innerHTML += `
-//       <section class="actuality">
-//         <aside class="publish-by">
-//           <div class="small-round"></div>
-//           <p class="author">Publié par <strong>${name[i]}</strong> <span class="job"> developpeur-web</span></p>
-//         </aside>
-//         <div class="picture-text">
-//           <p class="text">${i == 1 || i == 4 || i== 5 ? pictureAndText[i] : ""}</p>
-//           <figure class="picture"><img src="${i == 0 || i == 2 || i == 3 ? pictureAndText[i] : ""}" alt=""></figure>
-//         </div>
-//         <div class="dislike-like">
-//           <button class="dis-like" onclick="disLikeButton(${i})">
-//             <svg width="26" height="31" viewBox="0 0 26 31" fill="none">
-//               <path d="M16.8795 18.0833V5.16663M16.8795 18.0833H21.0471V5.16665L16.8795 5.16663M16.8795 18.0833L11.4661 25.9127C10.9525 26.6557 10.1443 26.9751 9.37854 26.7377L9.32905 26.7223C7.93101 26.2891 7.30128 24.2696 8.10053 22.7833L10.628 18.0833H5.87647C4.56147 18.0833 3.5752 16.5919 3.83307 14.9934L5.08336 7.24335C5.2782 6.03584 6.1334 5.16665 7.12676 5.16665L16.8795 5.16663" stroke="#393C38" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
-//             </svg>
-//             <span class="counter counterdown">${dislike[i]}</span>
-//           </button>
-//           <button class="li-ke" onclick="likeButton(${i})">
-//               <svg width="26" height="28" viewBox="0 0 26 28" fill="none">
-//             <path d="M9.08232 11.6667V23.3334M9.08232 11.6667L4.91467 11.6667V23.3334H9.08232M9.08232 11.6667L14.4957 4.59492C15.0093 3.92389 15.8174 3.63542 16.5833 3.84977L16.6327 3.86365C18.0308 4.255 18.6605 6.07904 17.8613 7.42162L15.3338 11.6667H20.0853C21.4003 11.6667 22.3866 13.0137 22.1287 14.4576L20.8784 21.4576C20.6836 22.5483 19.8284 23.3334 18.835 23.3334H9.08232" stroke="#393C38" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
-//         </svg><span class="counter counterup">${like[i]}</span>
-//     </button>
-// </div>
-// </section>
-// `;
-
-    
-
-
-// function disLikeButton() {
-//     let counter = document.querySelectorAll('.counterdown');
-//     dislike++;
-//     for (let j = 0; j < counter.length; j++) {
-        
-//         counter[j].innerHTML = dislike;
-//     }
-// }
-// function LikeButton() {
-//     const counter = document.querySelectorAll('.counterup')
-//         like++;
-//     for (let j = 0; j < counter.length; j++) {
-//         counter[j].innerHTML = like;
-//     }
-// }
-// }
-  
 
 
 
