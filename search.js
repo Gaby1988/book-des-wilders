@@ -2,6 +2,7 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "مهراد", last: "گلشن" },
+    job: "Retailer",
     location: {
       street: { number: 3457, name: "17 شهریور" },
       city: "کرمانشاه",
@@ -40,6 +41,8 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "James", last: "Johnson" },
+    job: "Plomber",
+
     location: {
       street: { number: 7504, name: "Moorhouse Avenue" },
       city: "Greymouth",
@@ -78,6 +81,7 @@ let users = [
   {
     gender: "female",
     name: { title: "Mrs", first: "Leah", last: "Thomas" },
+    job: "Developer",
     location: {
       street: { number: 1879, name: "Church Road" },
       city: "Norwich",
@@ -116,6 +120,8 @@ let users = [
   {
     gender: "female",
     name: { title: "Mrs", first: "Kazka", last: "Karas" },
+    job: "Retailer",
+
     location: {
       street: { number: 910, name: "Provulok Novikovskiy" },
       city: "Kam'yanka-Dniprovska",
@@ -154,6 +160,8 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "Roemer", last: "Meindertsma" },
+    job: "Doctor",
+
     location: {
       street: { number: 3611, name: "Kaapduinseweg" },
       city: "Rossum Ov",
@@ -196,6 +204,8 @@ let users = [
       first: "Anneliese",
       last: "Guillaume",
     },
+    job: "Designer UX",
+
     location: {
       street: { number: 4424, name: "Rue de la Baleine" },
       city: "Cheseaux-sur-Lausanne",
@@ -234,6 +244,8 @@ let users = [
   {
     gender: "female",
     name: { title: "Mrs", first: "Elcke", last: "Van Emmerik" },
+    job: "Healthcare",
+
     location: {
       street: { number: 5283, name: "Jacob Bontiusplaats" },
       city: "Pietersbierum",
@@ -272,6 +284,8 @@ let users = [
   {
     gender: "female",
     name: { title: "Mrs", first: "Oya", last: "Kulaksızoğlu" },
+    job: "Developer fullstack",
+
     location: {
       street: { number: 8045, name: "Fatih Sultan Mehmet Cd" },
       city: "Konya",
@@ -307,6 +321,8 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "Isabel", last: "Ríos" },
+    job: "Developer Android",
+
     location: {
       street: { number: 8629, name: "Ampliación Coahuila de Zaragoza" },
       city: "San Andrés Huaxpaltepec",
@@ -342,6 +358,8 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "Théo", last: "Simon" },
+    job: "Developer iOS",
+
     location: {
       street: { number: 4036, name: "Rue du Château" },
       city: "Aubervilliers",
@@ -380,6 +398,8 @@ let users = [
   {
     gender: "female",
     name: { title: "Mrs", first: "Shari", last: "Crooijmans" },
+    job: "UI/UX Designer",
+
     location: {
       street: { number: 763, name: "Hoge Rijndijk" },
       city: "Hollandscheveld",
@@ -418,6 +438,7 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "Rodney", last: "Coleman" },
+    job: "Teacher",
     location: {
       street: { number: 1302, name: "Dane St" },
       city: "Henderson",
@@ -453,6 +474,7 @@ let users = [
   {
     gender: "female",
     name: { title: "Madame", first: "Dragana", last: "Durand" },
+    job: "RoR Developer",
     location: {
       street: { number: 7255, name: "Rue Chazière" },
       city: "Coppet",
@@ -488,6 +510,8 @@ let users = [
   {
     gender: "male",
     name: { title: "Monsieur", first: "Léonard", last: "Simon" },
+    job: "Adobe CC Expert",
+
     location: {
       street: { number: 5556, name: "Rue Pasteur" },
       city: "Fläsch",
@@ -526,6 +550,8 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "Daniel", last: "Kauppi" },
+    job: "Angular Developer",
+
     location: {
       street: { number: 7747, name: "Hermiankatu" },
       city: "Kuhmo",
@@ -564,6 +590,8 @@ let users = [
   {
     gender: "female",
     name: { title: "Ms", first: "Concepción", last: "Márquez" },
+    job: "Developer",
+
     location: {
       street: { number: 2252, name: "Calle de Atocha" },
       city: "Orense",
@@ -602,6 +630,8 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "Nathan", last: "Roche" },
+    job: "Designer",
+
     location: {
       street: { number: 9458, name: "Rue du Stade" },
       city: "Poitiers",
@@ -640,6 +670,8 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "Navid", last: "Rijkens" },
+    job: "Seller",
+
     location: {
       street: { number: 6128, name: "Herbert van Puttenweg" },
       city: "Rauwert",
@@ -675,6 +707,8 @@ let users = [
   {
     gender: "male",
     name: { title: "Mr", first: "Carmelo", last: "Rocha" },
+    job: "Writter",
+
     location: {
       street: { number: 9531, name: "Circunvalación Tamaulipas" },
       city: "Zacapuato",
@@ -713,6 +747,8 @@ let users = [
   {
     gender: "female",
     name: { title: "Miss", first: "Leposava", last: "Blažić" },
+    job: "Dancer",
+
     location: {
       street: { number: 879, name: "Grobljanska" },
       city: "Žabalj",
@@ -764,9 +800,9 @@ function injectData() {
       <p class="user-card-name">
       ${users[i].name.first} ${users[i].name.last}
       </p>
-      <p class="user-card-position">${users[i].location.city}</p>
+      <p class="user-card-position">${users[i].job}</p>
       <p class="user-card-details">
-      ${users[i].dob.age} ${users[i].gender} ${users[i].nat}
+      ${users[i].location.city} - ${users[i].nat} - ${users[i].dob.age} yo
       </p>
       </div>
       <div class="user-card-cta"><span class="material-symbols-rounded">

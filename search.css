@@ -22,6 +22,12 @@ select:focus {
   background-position: center right 10px;
 }
 
+h1 {
+  padding-top: 30px;
+  font-family: "Ultra", serif;
+  font-weight: 100;
+  font-size: 24px;
+}
 .user-card-list {
   display: flex;
   padding: 20px 0px;
