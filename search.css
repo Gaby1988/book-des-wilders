@@ -1,0 +1,77 @@
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.search-main {
+  width: 100%;
+  padding: 15px 10px;
+}
+
+.search-bar {
+  height: 40px;
+  min-width: 100%;
+  border-radius: 25px;
+  border: 2px solid var(--gray-dark);
+  box-shadow: var(--box-shadow-publication);
+  padding: 0 7px;
+  background-image: url("img/search.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center right 10px;
+}
+
+.user-card-list {
+  display: flex;
+  padding: 20px 0px;
+  flex-flow: column wrap;
+  gap: 15px;
+}
+
+.user-card-container {
+  display: flex;
+  gap: 15px;
+  min-height: 100px;
+  max-width: 400px;
+  padding: 0px 15px;
+  align-items: center;
+  text-align: left;
+  border: 2px solid var(--gray-dark);
+  box-shadow: var(--box-shadow-publication);
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.user-card-image-crop {
+  width: 52px;
+  min-width: 52px;
+  height: 52px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.user-card-container img {
+  height: 52px;
+  min-width: 52px;
+  border-radius: 50%;
+}
+
+.user-card-info {
+  flex: 3 1 200px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.user-card-name {
+  font-weight: 700;
+}
+
+.user-card-cta {
+  width: 30px;
+}
+.material-symbols-rounded {
+  color: var(--blue-light);
+  font-size: 32px;
+  transform: rotate(-0.125turn);
+}

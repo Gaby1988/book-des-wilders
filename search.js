@@ -750,25 +750,28 @@ let users = [
   },
 ];
 
-const userList = document.getElementById("user-card-list");
+const userList = document.querySelector(".user-card-list");
 console.log(users[1]);
 
 function injectData() {
   for (let i = 0; i < users.length; i++) {
     userList.innerHTML += `
       <div class="user-card-container">
-      <img src="${users[i].picture.large}" alt="Profile picture">
-      
+        <div class="user-card-image-crop">
+          <img src="${users[i].picture.large}" alt="Profile picture">
+        </div>
       <div class="user-card-info">
       <p class="user-card-name">
       ${users[i].name.first} ${users[i].name.last}
       </p>
-      <p class="user-card-position">${users[i].email}</p>
+      <p class="user-card-position">${users[i].location.city}</p>
       <p class="user-card-details">
       ${users[i].dob.age} ${users[i].gender} ${users[i].nat}
       </p>
       </div>
-      <div class="user-card-cta"></div>
+      <div class="user-card-cta"><span class="material-symbols-rounded">
+      send
+      </span></div>
       </div>`;
   }
 }
