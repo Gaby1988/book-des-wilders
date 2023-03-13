@@ -786,12 +786,15 @@ let users = [
   },
 ];
 
+// Populate user data with JS
+
 const userList = document.querySelector(".user-card-list");
 console.log(users[1]);
 
 function injectData() {
   for (let i = 0; i < users.length; i++) {
     userList.innerHTML += `
+
       <div class="user-card-container">
         <div class="user-card-image-crop">
           <img src="${users[i].picture.large}" alt="Profile picture">
@@ -800,9 +803,9 @@ function injectData() {
       <p class="user-card-name">
       ${users[i].name.first} ${users[i].name.last}
       </p>
-      <p class="user-card-position">${users[i].job}</p>
+      <p class="user-card-position">${users[i].location.city}</p>
       <p class="user-card-details">
-      ${users[i].location.city} - ${users[i].nat} - ${users[i].dob.age} yo
+      ${users[i].job} - ${users[i].location.city} ${users[i].nat}
       </p>
       </div>
       <div class="user-card-cta"><span class="material-symbols-rounded">
@@ -811,4 +814,35 @@ function injectData() {
       </div>`;
   }
 }
+
 injectData();
+
+// Filter feature
+
+// Get search bar
+let filterInput = document.querySelector(".search-bar");
+console.log("Selector de la barre de recherche");
+console.log(filterInput);
+// Add event listener
+filterInput.addEventListener("keyup", filterUsers);
+// Get search value
+function filterUsers() {
+  let filterValue = filterInput.value.toUpperCase();
+  console.log("Impression de la valeur de l'input");
+  console.log(filterValue);
+  // Get all cards
+  let userCards = document.querySelectorAll(".user-card-container");
+  console.log("Selection des users cards");
+  console.log(userCards);
+  let userName = document.querySelector(".user-card-name");
+
+  for (let i = 0; i < userCards.length; i++) {
+    console.log(userName[0]);
+
+    // if (userName.innerHTML.toUpperCase().indexOf(filterValue) > -1) {
+    //   userCards[i].style.display = "";
+    // } else {
+    //   userCards[i].style.display = none;
+    // }
+  }
+}
