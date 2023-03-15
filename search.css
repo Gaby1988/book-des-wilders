@@ -69,6 +69,12 @@ h1 {
   font-size: 14px;
 }
 
+.user-card-details-description {
+  display: none;
+}
+.user-card-details-job {
+}
+
 .user-card-name {
   font-weight: 700;
 }
@@ -80,4 +86,38 @@ h1 {
   color: var(--blue-light);
   font-size: 32px;
   transform: rotate(-0.125turn);
+}
+
+/* ANIMATIONS */
+
+/* MEDIA QUERIES - TABLETTE */
+@media screen and (min-width: 768px) {
+  .user-card-details-description {
+    font-style: italic;
+    display: inline-block;
+    height: auto;
+    width: 375px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .user-card-container {
+    min-height: 120px;
+
+    max-width: 600px;
+  }
+}
+
+/* MEDIA QUERIES - Desktop */
+
+@media screen and (min-width: 1024px) {
+  .search-main {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .user-card-list {
+  }
+  .user-card-container {
+  }
 }

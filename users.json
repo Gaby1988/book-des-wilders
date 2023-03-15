@@ -3,6 +3,8 @@
     {
       "gender": "female",
       "name": { "title": "Mrs", "first": "Felinta", "last": "Cavalcanti" },
+      "job": "Developer",
+      "description": "👋 Experienced marketing professional with a knack for data analysis.",
       "location": {
         "street": { "number": 4414, "name": "Rua Castro Alves " },
         "city": "João Pessoa",
@@ -12,7 +14,7 @@
         "coordinates": { "latitude": "-76.3063", "longitude": "46.0513" },
         "timezone": {
           "offset": "+8:00",
-          "description": "Beijing, Perth, Singapore, Hong Kong"
+          "description": "👋 Beijing, Perth, Singapore, Hong Kong"
         }
       },
       "email": "felinta.cavalcanti@example.com",
@@ -40,6 +42,9 @@
     {
       "gender": "female",
       "name": { "title": "Miss", "first": "Heidelinde", "last": "Heitmann" },
+      "job": "Designer UX",
+      "description": "👋 Skilled writer with a talent for crafting engaging content.",
+
       "location": {
         "street": { "number": 5996, "name": "Goethestraße" },
         "city": "Griesheim",
@@ -49,7 +54,7 @@
         "coordinates": { "latitude": "36.3619", "longitude": "-17.0105" },
         "timezone": {
           "offset": "+3:00",
-          "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+          "description": "👋 Baghdad, Riyadh, Moscow, St. Petersburg"
         }
       },
       "email": "heidelinde.heitmann@example.com",
@@ -77,6 +82,9 @@
     {
       "gender": "female",
       "name": { "title": "Miss", "first": "Rosario", "last": "Diez" },
+      "job": "Doctor",
+      "description": "👋 Digital media expert with a strong background in social media marketing.",
+
       "location": {
         "street": { "number": 5113, "name": "Calle de Toledo" },
         "city": "Burgos",
@@ -86,7 +94,7 @@
         "coordinates": { "latitude": "-43.6010", "longitude": "-17.5299" },
         "timezone": {
           "offset": "+10:00",
-          "description": "Eastern Australia, Guam, Vladivostok"
+          "description": "👋 Eastern Australia, Guam, Vladivostok"
         }
       },
       "email": "rosario.diez@example.com",
@@ -114,6 +122,8 @@
     {
       "gender": "female",
       "name": { "title": "Mrs", "first": "Kavitha", "last": "Shenoy" },
+      "job": "Senior React Dev",
+      "description": "👋 Strategic thinker with a talent for developing effective marketing campaigns.",
       "location": {
         "street": { "number": 9421, "name": "Sitabuldi Main Rd" },
         "city": "Deoghar",
@@ -123,7 +133,7 @@
         "coordinates": { "latitude": "54.1412", "longitude": "35.7147" },
         "timezone": {
           "offset": "+6:00",
-          "description": "Almaty, Dhaka, Colombo"
+          "description": "👋 Almaty, Dhaka, Colombo"
         }
       },
       "email": "kavitha.shenoy@example.com",
@@ -151,6 +161,8 @@
     {
       "gender": "male",
       "name": { "title": "Mr", "first": "Aiden", "last": "Byrd" },
+      "job": "Front-End Developer",
+      "description": "👋 Creative designer with a keen eye for detail.",
       "location": {
         "street": { "number": 1901, "name": "Lakeview St" },
         "city": "Richardson",
@@ -158,7 +170,7 @@
         "country": "United States",
         "postcode": 22960,
         "coordinates": { "latitude": "46.3012", "longitude": "8.5687" },
-        "timezone": { "offset": "-2:00", "description": "Mid-Atlantic" }
+        "timezone": { "offset": "-2:00", "description": "👋 Mid-Atlantic" }
       },
       "email": "aiden.byrd@example.com",
       "login": {
@@ -185,6 +197,8 @@
     {
       "gender": "male",
       "name": { "title": "Mr", "first": "George", "last": "Jackson" },
+      "job": "UX / UI Designer",
+      "description": "👋 Versatile project manager with excellent communication skills.",
       "location": {
         "street": { "number": 645, "name": "Railway Road" },
         "city": "Taupo",
@@ -194,7 +208,7 @@
         "coordinates": { "latitude": "51.1647", "longitude": "-24.7078" },
         "timezone": {
           "offset": "-6:00",
-          "description": "Central Time (US & Canada), Mexico City"
+          "description": "👋 Central Time (US & Canada), Mexico City"
         }
       },
       "email": "george.jackson@example.com",
@@ -222,6 +236,8 @@
     {
       "gender": "male",
       "name": { "title": "Mr", "first": "Jimmie", "last": "Gonzalez" },
+      "job": "Back-End Developer",
+      "description": "👋 VExperienced event planner with a talent for executing successful events.",
       "location": {
         "street": { "number": 9069, "name": "Oaks Cross" },
         "city": "St Davids",
@@ -231,7 +247,7 @@
         "coordinates": { "latitude": "-64.3622", "longitude": "9.0274" },
         "timezone": {
           "offset": "+10:00",
-          "description": "Eastern Australia, Guam, Vladivostok"
+          "description": "👋 Eastern Australia, Guam, Vladivostok"
         }
       },
       "email": "jimmie.gonzalez@example.com",
@@ -259,6 +275,8 @@
     {
       "gender": "male",
       "name": { "title": "Mr", "first": "Cecil", "last": "Wells" },
+      "job": "Data Analyst",
+      "description": "👋 Versatile project manager with excellent communication skills.",
       "location": {
         "street": { "number": 1796, "name": "Timber Wolf Trail" },
         "city": "Concord",
@@ -266,7 +284,7 @@
         "country": "United States",
         "postcode": 54885,
         "coordinates": { "latitude": "-42.8670", "longitude": "17.1672" },
-        "timezone": { "offset": "-10:00", "description": "Hawaii" }
+        "timezone": { "offset": "-10:00", "description": "👋 Hawaii" }
       },
       "email": "cecil.wells@example.com",
       "login": {
@@ -293,6 +311,9 @@
     {
       "gender": "female",
       "name": { "title": "Mrs", "first": "Sharanya", "last": "Kumari" },
+      "job": "Developer PHP",
+      "description": "👋 Experienced HR specialist with a talent for recruitment and talent management.",
+
       "location": {
         "street": { "number": 8351, "name": "NAD X Rd" },
         "city": "Jorhat",
@@ -302,7 +323,7 @@
         "coordinates": { "latitude": "10.8508", "longitude": "-35.8254" },
         "timezone": {
           "offset": "-6:00",
-          "description": "Central Time (US & Canada), Mexico City"
+          "description": "👋 Central Time (US & Canada), Mexico City"
         }
       },
       "email": "sharanya.kumari@example.com",
@@ -330,6 +351,9 @@
     {
       "gender": "female",
       "name": { "title": "Mrs", "first": "Meghashree", "last": "Gamskar" },
+      "job": "Developer",
+      "description": "👋 Skilled financial analyst with a knack for forecasting and budgeting.",
+
       "location": {
         "street": { "number": 9025, "name": "Santhekatte" },
         "city": "Ahmedabad",
@@ -337,7 +361,7 @@
         "country": "India",
         "postcode": 61574,
         "coordinates": { "latitude": "-13.8107", "longitude": "-86.4875" },
-        "timezone": { "offset": "+5:45", "description": "Kathmandu" }
+        "timezone": { "offset": "+5:45", "description": "👋 Kathmandu" }
       },
       "email": "meghashree.gamskar@example.com",
       "login": {
@@ -364,6 +388,9 @@
     {
       "gender": "female",
       "name": { "title": "Mrs", "first": "Alma", "last": "Hansen" },
+      "job": "Front-End Developer",
+      "description": "👋 Knowledgeable IT professional with expertise in network administration.",
+
       "location": {
         "street": { "number": 5343, "name": "Næstvedvej" },
         "city": "Aarhus N",
@@ -371,7 +398,7 @@
         "country": "Denmark",
         "postcode": 81115,
         "coordinates": { "latitude": "4.4920", "longitude": "170.2577" },
-        "timezone": { "offset": "-2:00", "description": "Mid-Atlantic" }
+        "timezone": { "offset": "-2:00", "description": "👋 Mid-Atlantic" }
       },
       "email": "alma.hansen@example.com",
       "login": {
@@ -398,6 +425,9 @@
     {
       "gender": "female",
       "name": { "title": "Ms", "first": "Karla", "last": "Olsen" },
+      "job": "Back-End Developer",
+      "description": "👋 Experienced customer service representative with a commitment to customer satisfaction.",
+
       "location": {
         "street": { "number": 1264, "name": "Vejlby Toften" },
         "city": "Ulsted, Hals",
@@ -407,7 +437,7 @@
         "coordinates": { "latitude": "-65.0597", "longitude": "-131.3338" },
         "timezone": {
           "offset": "-3:00",
-          "description": "Brazil, Buenos Aires, Georgetown"
+          "description": "👋 Brazil, Buenos Aires, Georgetown"
         }
       },
       "email": "karla.olsen@example.com",
@@ -435,6 +465,9 @@
     {
       "gender": "female",
       "name": { "title": "Miss", "first": "Phuong", "last": "De Frel" },
+      "job": "UX Designer",
+      "description": "👋 Talented graphic designer with a passion for visual storytelling.",
+
       "location": {
         "street": { "number": 1903, "name": "Boswaaisestraat" },
         "city": "Wesepe",
@@ -444,7 +477,7 @@
         "coordinates": { "latitude": "-19.0510", "longitude": "78.8205" },
         "timezone": {
           "offset": "+3:00",
-          "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+          "description": "👋 Baghdad, Riyadh, Moscow, St. Petersburg"
         }
       },
       "email": "phuong.defrel@example.com",
@@ -472,6 +505,9 @@
     {
       "gender": "male",
       "name": { "title": "Mr", "first": "Nathan", "last": "Simonsen" },
+      "job": "Data Analyst",
+      "description": "👋 Detail-oriented accountant with a strong understanding of financial regulations.",
+
       "location": {
         "street": { "number": 2789, "name": "Bergrådveien" },
         "city": "Leknes",
@@ -479,7 +515,7 @@
         "country": "Norway",
         "postcode": "3736",
         "coordinates": { "latitude": "-69.3429", "longitude": "-136.0563" },
-        "timezone": { "offset": "-3:30", "description": "Newfoundland" }
+        "timezone": { "offset": "-3:30", "description": "👋 Newfoundland" }
       },
       "email": "nathan.simonsen@example.com",
       "login": {
@@ -506,6 +542,8 @@
     {
       "gender": "male",
       "name": { "title": "Mr", "first": "Oscar", "last": "Kelley" },
+      "job": "Back-End Developer",
+      "description": "👋 Experienced event planner with a talent for executing successful events.",
       "location": {
         "street": { "number": 2221, "name": "London Road" },
         "city": "Leicester",
@@ -513,7 +551,7 @@
         "country": "United Kingdom",
         "postcode": "W5 9NS",
         "coordinates": { "latitude": "-89.1534", "longitude": "34.9811" },
-        "timezone": { "offset": "+4:30", "description": "Kabul" }
+        "timezone": { "offset": "+4:30", "description": "👋 Kabul" }
       },
       "email": "oscar.kelley@example.com",
       "login": {

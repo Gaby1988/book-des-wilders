@@ -17,10 +17,10 @@ async function enAttente() {
       <p class="user-card-name">
       ${data.users[i].name.first} ${data.users[i].name.last}
       </p>
-      <p class="user-card-position">${data.users[i].location.city}</p>
+      <p class="user-card-job">${data.users[i].job}</p>
       <p class="user-card-details">
-      ${data.users[i].job} - ${data.users[i].location.city} ${data.users[i].nat}
-      </p>
+      <span class="user-card-details-city">Lives in ${data.users[i].location.city} -</span> <span class="user-card-details-city></span><span class="user-card-details-country>${data.users[i].nat}</span>
+      <p class="user-card-details-description">${data.users[i].description}</p>
       </div>
       <div class="user-card-cta"><span class="material-symbols-rounded">
       send
@@ -44,22 +44,26 @@ filterInput.addEventListener("keyup", filterUsers);
 // Get search value
 function filterUsers() {
   let filterValue = filterInput.value.toUpperCase();
-  console.log("VALUR INPUT");
+  console.log("VALEUR INPUT");
   console.log(filterValue);
   // Get all cards
   let userCards = document.querySelectorAll(".user-card-container");
   console.log("USERS CARDS");
   console.log(userCards);
+  console.log("USERCARD LENGTH");
+  console.log(userCards.length);
   let userName = document.querySelectorAll(".user-card-name");
   console.log("USERNAME");
+  console.log(userName[0].innerHTML);
 
   for (let i = 0; i < userCards.length; i++) {
-    console.log(userName[i]);
+    console.log("USERNAME de I");
+    console.log(userName[i].innerHTML);
 
-    if (userName[i].value.toUpperCase().indexOf(filterValue) > -1) {
+    if (userName[i].innerHTML.toUpperCase().indexOf(filterValue) > -1) {
       userCards[i].style.display = "";
     } else {
-      userCards[i].style.display = none;
+      userCards[i].style.display = "none";
     }
   }
 }
