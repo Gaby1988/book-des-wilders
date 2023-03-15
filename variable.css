@@ -14,4 +14,10 @@
 /*-------------------- font ---------------------*/
 /*---------------- shadow et box ---------------*/
 --box-shadow-publication: 3px 3px 0px 0px #393C38;
+/*---------------------- Button ---------------*/
+    --border-radius: 50%;
+    --height: 40px;
+    --width: 40px;
+    --margin-top: 33%;
+    --background-color: #fff;
 }
