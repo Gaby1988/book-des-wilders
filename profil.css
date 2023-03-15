@@ -1,13 +1,31 @@
+body{
+    background-color: #F4EEDC;
+}
+
+ header nav{
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+p{
+    line-height: 20px;
+    margin: 20px 0;
+}
+header nav button{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 33%;
+    background-color: #fff;
+}
 .banner{
-    width: 310px;
+    width: 96%;
     height: 140px;
     border: solid 2px black;
     border-radius: 4%;
     box-shadow: var(--box-shadow-publication);
 }
-.information{
-    margin-top: 95px;
-}
+
 .picture{
     border-radius: 50%;
     border: solid 2px black;
@@ -20,8 +38,27 @@
     background-color: brown;
 }
 
+.information{
+    margin: 95px 10px;
+    text-align: justify;
+}
+
 .biographie{
     display: grid;
     grid-template-rows: 50px 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    text-align: start; 
+}
+
+.biographie .subject{
+    font-weight : 600;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+.material-symbols-rounded{
+    border: 2px blue solid;
+    width: 30px;
 }
