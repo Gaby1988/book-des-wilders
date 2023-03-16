@@ -1,0 +1,130 @@
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+h1,
+h2,
+p,
+span,
+div {
+  color: var(--gray-dark);
+}
+nav,
+.event-widget,
+.profil-widget,
+.suggest-widget {
+  display: none;
+}
+
+.search-main {
+  width: 100%;
+  padding: 15px 10px;
+}
+
+.search-bar,
+.user-card-container,
+.event-widget,
+.profil-widget,
+.suggest-widget {
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px solid var(--gray-dark);
+  box-shadow: var(--box-shadow-publication);
+}
+
+.search-bar {
+  height: 40px;
+  min-width: 100%;
+  padding: 0 7px;
+  background-image: url("img/search.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center right 10px;
+}
+
+h1 {
+  padding-top: 30px;
+  font-family: "Ultra", serif;
+  font-weight: 100;
+  font-size: 24px;
+}
+.user-card-list {
+  display: flex;
+  padding: 20px 0px;
+  flex-flow: column wrap;
+  gap: 15px;
+}
+
+.user-card-container {
+  display: flex;
+  gap: 15px;
+  min-height: 100px;
+  max-width: 400px;
+  padding: 0px 15px;
+  align-items: center;
+  text-align: left;
+}
+
+.user-card-image-crop {
+  width: 52px;
+  min-width: 52px;
+  height: 52px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.user-card-container img {
+  height: 52px;
+  min-width: 52px;
+  border-radius: 50%;
+}
+
+.user-card-info {
+  flex: 3 1 200px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.user-card-details-description {
+  display: none;
+}
+.user-card-details-job {
+}
+
+.user-card-name {
+  font-weight: 700;
+}
+
+.user-card-cta {
+  width: 30px;
+}
+.user-card-cta .material-symbols-rounded {
+  color: var(--blue-light);
+  font-size: 32px;
+  transform: rotate(-0.125turn);
+}
+
+/* ANIMATIONS */
+
+/* MEDIA QUERIES - TABLETTE */
+@media screen and (min-width: 768px) {
+  .user-card-details-description {
+    font-style: italic;
+    display: inline-block;
+    height: auto;
+    width: 375px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-image: linear-gradient(90deg, #000000 80%, rgba(0, 0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .user-card-container {
+    min-height: 120px;
+    max-width: 600px;
+  }
+}

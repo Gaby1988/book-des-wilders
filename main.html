@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Face-Book</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+        <!-- généré par javascript -->
+
+        <!-- <svg width="30" height="27" viewBox="0 0 21 22" fill="none">
+            <path d="M9.54857 2.73438H14.7569C15.7158 2.73438 16.493 3.55052 16.493 4.55729V6.38021V15.4948V17.3177C16.493 18.3245 15.7158 19.1406 14.7569 19.1406H9.54857H4.34024C3.38141 19.1406 2.60413 18.3245 2.60413 17.3177V15.4948V6.38021V4.55729C2.60413 3.55052 3.38141 2.73438 4.34024 2.73438H9.54857Z" stroke="black" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M9.54858 2.73438H14.7569H17.3611C18.3199 2.73438 19.0972 3.55052 19.0972 4.55729V17.3177C19.0972 18.3245 18.3199 19.1406 17.3611 19.1406H14.7569H9.54858" stroke="black" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12.1528 10.9375C12.1528 12.4477 10.9869 13.6719 9.54862 13.6719C8.11039 13.6719 6.94446 12.4477 6.94446 10.9375C6.94446 9.4273 8.11039 8.20312 9.54862 8.20312C10.9869 8.20312 12.1528 9.4273 12.1528 10.9375Z" stroke="black" stroke-width="1.92"/>
+            <path d="M6.07629 19.1406C6.44562 17.0377 7.39573 16.4062 9.54852 16.4062C11.7013 16.4062 12.6514 16.9919 13.0207 19.0948" stroke="#323232" stroke-width="1.92" stroke-linecap="round"/>
+        </svg> -->
+
+        <!-- <svg width="30" height="27" viewBox="0 0 27 22" fill="none">
+            <path d="M20.7859 8.87098V15.8708C20.7859 17.5207 20.7859 18.3456 20.1566 18.8582C19.5273 19.3708 18.5146 19.3708 16.489 19.3708H15.4148H11.1179H10.0437C8.01813 19.3708 7.00535 19.3708 6.37609 18.8582C5.74683 18.3456 5.74683 17.5207 5.74683 15.8708V8.87098" stroke="black" stroke-width="1.92" stroke-linejoin="round"/>
+            <path d="M3.59839 10.6209L8.43237 7.12101L11.839 4.65452C12.653 4.06516 13.8797 4.06516 14.6937 4.65452L18.1003 7.12101L22.9343 10.6209" stroke="black" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.1179 19.3708V15.8708C11.1179 14.9043 12.0798 14.1209 13.2664 14.1209C14.4529 14.1209 15.4148 14.9043 15.4148 15.8708V19.3708" stroke="black" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> -->
+
+        </nav>
+        <article class="find-home">
+            <div class="round"></div>
+            <input type="text" name="find" id="find">
+        </article>
+    </header>
+
+    <main class="home-main">
+        <h2>Dernières publications</h2>
+        <article class="section-new"></article>
+        <!-- <section class="actuality">
+            <aside class="publish-by">
+                <div class="small-round"></div>
+                    <p class="author">Publié par <span class="name">John</span> <span class="job"> developpeur-web</span>
+                    </p>
+            </aside>
+            <div class="picture-text">
+                <p class="text"></p>
+                <figure class="picture"></figure>
+            </div>
+            <div class="dislike-like">
+                <button class="dislike"  id="dislike">
+                    <svg width="26" height="31" viewBox="0 0 26 31" fill="none">
+                        <path d="M16.8795 18.0833V5.16663M16.8795 18.0833H21.0471V5.16665L16.8795 5.16663M16.8795 18.0833L11.4661 25.9127C10.9525 26.6557 10.1443 26.9751 9.37854 26.7377L9.32905 26.7223C7.93101 26.2891 7.30128 24.2696 8.10053 22.7833L10.628 18.0833H5.87647C4.56147 18.0833 3.5752 16.5919 3.83307 14.9934L5.08336 7.24335C5.2782 6.03584 6.1334 5.16665 7.12676 5.16665L16.8795 5.16663" stroke="#393C38" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="like" id="like">
+                    <svg width="26" height="28" viewBox="0 0 26 28" fill="none">
+                        <path d="M9.08232 11.6667V23.3334M9.08232 11.6667L4.91467 11.6667V23.3334H9.08232M9.08232 11.6667L14.4957 4.59492C15.0093 3.92389 15.8174 3.63542 16.5833 3.84977L16.6327 3.86365C18.0308 4.255 18.6605 6.07904 17.8613 7.42162L15.3338 11.6667H20.0853C21.4003 11.6667 22.3866 13.0137 22.1287 14.4576L20.8784 21.4576C20.6836 22.5483 19.8284 23.3334 18.835 23.3334H9.08232" stroke="#393C38" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </section> -->
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
