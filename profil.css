@@ -118,7 +118,7 @@ main .information {
 main .information .biographie{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 133%;
-    grid-column-gap: 36px;
+    grid-column-gap: 35px;
 }
 main .carreer div{
     justify-content: space-evenly;
