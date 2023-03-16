@@ -4,17 +4,39 @@ select:focus {
   outline: none;
 }
 
+h1,
+h2,
+p,
+span,
+div {
+  color: var(--gray-dark);
+}
+nav,
+.event-widget,
+.profil-widget,
+.suggest-widget {
+  display: none;
+}
+
 .search-main {
   width: 100%;
   padding: 15px 10px;
 }
 
-.search-bar {
-  height: 40px;
-  min-width: 100%;
+.search-bar,
+.user-card-container,
+.event-widget,
+.profil-widget,
+.suggest-widget {
+  background-color: #fff;
   border-radius: 25px;
   border: 2px solid var(--gray-dark);
   box-shadow: var(--box-shadow-publication);
+}
+
+.search-bar {
+  height: 40px;
+  min-width: 100%;
   padding: 0 7px;
   background-image: url("img/search.svg");
   background-repeat: no-repeat;
@@ -43,10 +65,6 @@ h1 {
   padding: 0px 15px;
   align-items: center;
   text-align: left;
-  border: 2px solid var(--gray-dark);
-  box-shadow: var(--box-shadow-publication);
-  border-radius: 25px;
-  background-color: #fff;
 }
 
 .user-card-image-crop {
@@ -82,7 +100,7 @@ h1 {
 .user-card-cta {
   width: 30px;
 }
-.material-symbols-rounded {
+.user-card-cta .material-symbols-rounded {
   color: var(--blue-light);
   font-size: 32px;
   transform: rotate(-0.125turn);
@@ -100,24 +118,13 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    background-image: linear-gradient(90deg, #000000 80%, rgba(0, 0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .user-card-container {
     min-height: 120px;
-
     max-width: 600px;
-  }
-}
-
-/* MEDIA QUERIES - Desktop */
-
-@media screen and (min-width: 1024px) {
-  .search-main {
-    width: 70%;
-    margin: 0 auto;
-  }
-  .user-card-list {
-  }
-  .user-card-container {
   }
 }

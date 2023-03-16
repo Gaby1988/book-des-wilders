@@ -1,10 +1,14 @@
+// FETCH JSON DATA
+
 async function enAttente() {
   const reponseJSON = await fetch("users.json");
   const data = await reponseJSON.json();
   console.log(data);
 
+  // SELECT CONTAINER TO INJECT DATA
   const userList = document.querySelector(".user-card-list");
 
+  // FUNCTION THAT CREATE CARD TEMPLATE FOR EACH USER
   function injectData() {
     for (let i = 0; i < data.users.length; i++) {
       userList.innerHTML += `
@@ -33,35 +37,39 @@ async function enAttente() {
 }
 
 enAttente();
-// Filter feature
 
-// Get search bar
+// FILTER FEATURE
+
+// GET SEARCH BAR
 let filterInput = document.querySelector(".search-bar");
 console.log("BARRE DE RECHERCHE");
 console.log(filterInput);
-// Add event listener
+//  LISTEN WHEN WE TYPE IN INPUT
 filterInput.addEventListener("keyup", filterUsers);
-// Get search value
+// GET THE VALUE WE TYPE
 function filterUsers() {
   let filterValue = filterInput.value.toUpperCase();
   console.log("VALEUR INPUT");
   console.log(filterValue);
-  // Get all cards
+  // GET ALL THE CARDS
   let userCards = document.querySelectorAll(".user-card-container");
   console.log("USERS CARDS");
   console.log(userCards);
   console.log("USERCARD LENGTH");
   console.log(userCards.length);
+  // GET ALL THE USERNAMES
   let userName = document.querySelectorAll(".user-card-name");
   console.log("USERNAME");
   console.log(userName[0].innerHTML);
-
   for (let i = 0; i < userCards.length; i++) {
     console.log("USERNAME de I");
     console.log(userName[i].innerHTML);
 
+    // FOR EACH CARD, CHECK IF THE USER NAME INCLUDE THE VALUE TYPED
     if (userName[i].innerHTML.toUpperCase().indexOf(filterValue) > -1) {
+      // IF THE VALUE MATCH, WE DO NOTHING
       userCards[i].style.display = "";
+      // IF THE VALUE DOES NOT MATCH, WE HIDE THE CARD
     } else {
       userCards[i].style.display = "none";
     }
