@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: var(--background-white);
 }
@@ -5,11 +9,11 @@ body{
  header nav{
     display: grid;
     grid-template-columns: 50px 100px;
-    margin-left: 10px;
+    margin-left: 3%;
 }
 
 header nav button .material-symbols-rounded{
-    width: 30px;
+    padding: 4px 0 1px 6px;
 }
 
 header nav button{
@@ -43,20 +47,20 @@ main .carreer div .material-symbols-rounded{
     height: 30px;
     border-radius: 50%;
     border: 2px solid black;
-    margin: 10px;
+    margin: 3%;
 }
 
 main .carreer .yellow .material-symbols-rounded{
     background-color: #F4C552;
 }
 
-main .carreer .blue .material-symbols-rounded{
+main .carreer .pink .material-symbols-rounded{
     background-color: #FDC0D2;
 }
 
 main article p{
     line-height: 20px;
-    margin: 20px 0;
+    margin: 5% 3%;
 }
 
 header .banner{
